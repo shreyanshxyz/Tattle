@@ -19,13 +19,9 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <h3 align="center">CTracker | India's Coronavirus Tracker</h3>
+  <h3 align="center">Tattle | An Open Source Chat Application</h3>
 
   <p align="center">
-    A realtime Covid-19 Tracker!
-    <br />
-    <a href="https://covid-tracker-2oo6sh.web.app/" target="_blank">View Demo</a>
-    ·
     <a href="/">Report Bug</a>
     ·
     <a href="/">Request Feature</a>
@@ -62,24 +58,36 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-This project was created by me out of my own curiosity to get to know how RESTful APIs work and what can I do with them. The web application has two parts. The first part displays the Covid-19 cases in the whole country by default, with an intuitive graph which can toggle between the confirmed, recovered and deceased cases.
-The second displays the statewise cases in the country with a bar graph corresponding to the respective state. The dropdown menu allows the user to choose any state of their choice and then see the cases of the respective state.
+I developed this project to learn more about how chat applications function and further strengthen my React.js skills. Needless to say, this project took me a lot of time and hundreds of pages of reading documentation to get it done.
+This project has a lot of modules, they are divided as in:
+- Login Page
+- Group Creation
+- Media Upload
+- Online/Offline Ticker
+- Addition/Removal of members
 
 Here are some images for Visual Reference:
 
-### Countrywide Cases
-![CountryWide Cases](https://i.imgur.com/UR3Wbzt.jpg)
+### Login Page
+![Login](https://imgur.com/EbroTc4.jpg)
 
-### Statewise Cases
-![StateWise Cases](https://i.imgur.com/05v6LZ3.jpg)
+### Group Creation & Media Upload
+![Chat](https://i.imgur.com/9wipPIw.jpg)
+
+### Online/Offline Ticker
+![Ticker](https://i.imgur.com/g4ETyle.jpg)
+
+### Addition/Removal of members
+![Member Addition](https://i.imgur.com/LN438XP.jpg)
 
 ### Built With
 
-This section should list any major frameworks that you built your project using. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
+This project was built using:
+
 * [JavaScript](https://www.javascript.com/)
 * [React.js](https://reactjs.org/)
-* [Axios](https://axios-http.com/)
-
+* [socket.io](https://axios-http.com/)
+* [chatengine.io](https://axios-http.com/)
 
 
 <!-- GETTING STARTED -->
@@ -98,7 +106,7 @@ To get a local copy up and running follow these simple example steps.
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/shreyanshxyz/covid-tracker.git
+   git clone https://github.com/shreyanshxyz/Tattle.git
    ```
 2. Install NPM packages
    ```sh
@@ -106,7 +114,7 @@ To get a local copy up and running follow these simple example steps.
    ```
 3. Start the project
    ```JS
-   cd covid-tracker
+   cd Tattle
    npm start
    ```
 
